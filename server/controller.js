@@ -1,44 +1,34 @@
 const movies = [
-    { id: 0,
-      name: 'Tenet',
-      date: '2020'
-
-
-     },
-     
-
-     {
-        id: 1,
-        name: 'Knocking on Heavens Door',
-        date: '1990'
-
-     },
-     {
-        id: 2,
-        name: 'Stalker',
-        date: '1979'
-
-     },
-     
-     {
-        
-        id: 3,
-        name: 'Inception',
-        date: '2010'
-
-     },
-     {
-        id: 4,
+    {
+        id: 0,
         name: 'Interstellar',
         date: '2014'
+    },
+    {
+        id: 1,
+        name: 'Inception',
+        date: '2010'
+    },
+    {
+        id: 2,
+        name: 'Knocking on heavens door',
+        date: '1990'
+    },
+    {
+        id: 3,
+        name: 'Terminator',
+        date: '1985'
+    }
+];
 
-     },
-     {
-         id: 5,
-         name: 'The Matrix',
-         date: '1999`'
 
-     }
 
-     
-]
+function getMovies(req, res) {
+    res.status(200).send(movies)
+}
+
+
+module.exports = {
+    getMovies
+}
+
