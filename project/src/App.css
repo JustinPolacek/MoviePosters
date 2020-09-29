@@ -38,14 +38,12 @@ h2{
   padding: 10px 20px 10px 20px;
   background-color: #b90009;
   color: white;
-  margin-top: 15px;
+  margin-top: 20px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 3px;
   letter-spacing: 2px;
-
-  
-
+  font-weight: 500;
 
 }
 
@@ -84,7 +82,8 @@ h2{
 nav{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+
   height: 10vh;
   width: 100%;
   text-decoration: none;
@@ -107,5 +106,21 @@ a  {
  
  
   
+
+}
+
+
+@media(max-width: 1400px){
+  .photos img{
+    width: 200px;
+    height: 200px;
+
+  }
+  .photos button{
+    padding: 5px;
+    font-size: 10px;
+
+  }
+
 
 }
