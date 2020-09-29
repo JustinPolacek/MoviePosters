@@ -11,8 +11,7 @@
   justify-content: space-evenly;
   color: black;
   overflow: hidden;
-  
-
+  flex: wrap;
   
 }
 
@@ -21,10 +20,10 @@
   height: 250px;
   width: 250px;
   border-radius: 3px;
-  
+  flex: wrap;
+
 }
   
-
 h2{
   display: flex;
   justify-content: center;
@@ -83,15 +82,11 @@ nav{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
   height: 10vh;
   width: 100%;
   text-decoration: none;
   list-style: none;
- 
-  
-
-  
+   
 }
 
 a  {
@@ -99,26 +94,21 @@ a  {
   color: white;
   text-decoration: none;
   list-style: none;
-  font-size: 15px;
-  
- 
-
- 
- 
-  
+  font-size: 15px; 
 
 }
 
-
-@media(max-width: 1400px){
+@media(max-width: 1300px){
   .photos img{
     width: 200px;
     height: 200px;
+  
 
   }
   .photos button{
-    padding: 5px;
-    font-size: 10px;
+    font-size: 14px;
+    margin-left: 40px;
+    
 
   }
 
