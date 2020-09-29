@@ -37,7 +37,7 @@ h2{
   margin-left: 60px;
   border: none;
   padding: 10px 20px 10px 20px;
-  background-color: red;
+  background-color: #E50914;
   color: white;
   margin-top: 15px;
   cursor: pointer;
@@ -66,7 +66,7 @@ h2{
 }
 
 .head{
-  color: red;
+  color: #E50914;
   display: flex;
   font-size: 35px;
   letter-spacing: 5px;
