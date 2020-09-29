@@ -48,19 +48,22 @@ axios.delete(`/api/movies/${index}`)
 
     render(){
         return (
-            <section>
+                <div className="photos">
                 {this.state.myList.map((movie, index) =>{
                   return(  
                     <div>
                         <h2>{movie.name}</h2>
-                        <img src={movie.img} alt="movie"/> 
-                        <button onClick={() => {this.onDeleteClick(index)}}>Delete</button>
+                       <img src={movie.img} alt="movie"/>
+                        <button onClick={() => {this.onDeleteClick(index)}}>Watch Now</button>
                     </div>
+                    
                   )
                 })}
                 
+                </div>
                
-            </section>
+            
+                
         )
     }
 }

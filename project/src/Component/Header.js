@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Header = () => {
+class Header extends Component{
+    render(){
     return (
         <div>
-            <h1>Display</h1>
+            <h1 className="head">
+                NETFLIX
+            </h1>
         </div>
     )
 }
 
+}
 export default Header;
