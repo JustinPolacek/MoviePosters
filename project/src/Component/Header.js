@@ -5,7 +5,7 @@ class Header extends Component{
     return (
         <div>
             <h1 className="head">
-                NETFLIX
+                <img src="https://imgix.bustle.com/uploads/image/2017/8/29/c8c8077a-10fc-44d5-93f0-da4e592a299e-netflix-logo-print_pms.jpg?w=1200&h=630&q=70&fit=crop&crop=faces&fm=jpg"></img>
             </h1>
             <nav>
                 <a href="#"><li>Movies</li></a>
