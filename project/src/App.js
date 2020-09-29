@@ -1,12 +1,12 @@
 import React from 'react';
 import axios from 'axios';
-import MovieDisplay from './Component/movieDisplay';
+import Display from './Component/Display';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <MovieDisplay />
+      <Display />
     </div>
   );
 }

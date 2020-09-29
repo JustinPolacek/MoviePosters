@@ -8,7 +8,8 @@ app.use(express.json());
 
 
 // teams controller
-app.get('/api/movie', controller.getMovies);
+app.get('/api/movies', controller.getMovies);
+app.delete('/api/movies/:index', controller.deleteMovie)
 
 
 
