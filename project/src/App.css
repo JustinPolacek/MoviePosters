@@ -139,6 +139,10 @@ a:hover{
   .photos button{
     padding: 8px;
   }
+
+  .head img{
+    margin-left: 23px;
+  }
   }
 
 
