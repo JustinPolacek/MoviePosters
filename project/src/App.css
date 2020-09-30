@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+ box-sizing: border-box; 
 }
 
 
@@ -10,8 +10,8 @@
   align-items: center;
   justify-content: space-evenly;
   color: black;
+  flex-wrap: wrap;
   overflow: hidden;
-  flex: wrap;
   
 }
 
@@ -24,12 +24,14 @@
   transition: transform .7s ease;
   cursor: pointer;
   opacity: 0.8;
+  overflow: hidden;
  
 }
 
 .photos img:hover {
   transform: scale(1.1);
   opacity: 1;
+  
   
   
 }
@@ -47,6 +49,8 @@
   border-radius: 3px;
   letter-spacing: 2px;
   font-weight: 500;
+  overflow: hidden;
+  contain: content;
 
 }
 
@@ -88,12 +92,8 @@ nav{
   height: 10vh;
   width: 100%;
   text-decoration: none;
-  list-style: none;
+  list-style: none; 
   
-  
-  
-  
-   
 }
 
 a  {
@@ -123,9 +123,18 @@ a:hover{
     font-size: 14px;
     margin-left: 40px;
     padding: 10px 10px;
-    
+    overflow: hidden;
 
   }
 
+  a{
+    margin-left: 8px;
+  }
+  
+  body{
+    background-color: black;
+    
+  }
+  }
 
-}
+
