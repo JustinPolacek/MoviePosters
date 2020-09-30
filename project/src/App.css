@@ -21,13 +21,17 @@
   width: 250px;
   border-radius: 3px;
   margin-top: 30px;
-
+  transition: transform .5s; 
+  cursor: pointer;
+  opacity: 0.8;
+ 
 }
-  
-h2{
-  display: flex;
-  justify-content: center;
 
+.photos img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  
+  
 }
 
 .photos button{
@@ -61,31 +65,33 @@ h2{
   position: relative;
 }
 
-.head{
-  color: #E50914;
+
+
+header{
   display: flex;
-  font-size: 35px;
-  letter-spacing: 5px;
-  position: absolute;
-  transform: translateY(15px);
-  margin-left: 50px;
-  font-weight: 700;
   
 }
 
 .head img{
   height: 55px;
   width: 100x;
+  display: flex;
+  margin-top: 11px;
+  margin-left: 45px;
+  cursor: pointer;
+  
 }
 
 nav{
-  display: flex;
+  display:flex;
   align-items: center;
-  justify-content: flex-start;
   height: 10vh;
   width: 100%;
   text-decoration: none;
   list-style: none;
+  
+  
+  
   
    
 }
@@ -96,8 +102,14 @@ a  {
   text-decoration: none;
   list-style: none;
   font-size: 15px; 
+  margin: 16px;
+  letter-spacing: 1px;
+  transition-duration: 0.8s;
   
+}
 
+a:hover{
+  color: grey;
 }
 
 @media(max-width: 1300px){
